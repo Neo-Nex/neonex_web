@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+} */
+
+@media (prefers-color-scheme: dark) {
+  /* :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  } */
+}
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+.to-teal-green{
+  --tw-gradient-to: #172e69 var(--tw-gradient-to-position);
+  
+}
+
+.via-teal-dark{
+  --tw-gradient-stops: var(--tw-gradient-from),#00081E var(--tw-gradient-via-position),var(--tw-gradient-to);
+}
+/* 
+background: radial-gradient(143.63% 143.63% at 103.1% 100%, #162C64 0%, #00081E 100%); */
+
+/* CSS */
+
+/* Define variables */
+
+/* Other styles */
+/* Ensure to convert HAML-specific syntax to CSS */
+/* For example, change #stars to #stars, etc. */
+/* Adjust as needed for compatibility */

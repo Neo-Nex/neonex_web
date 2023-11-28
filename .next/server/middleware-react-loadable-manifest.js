@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"../components/particle.tsx -> react-particles\":{\"id\":\"../components/particle.tsx -> react-particles\",\"files\":[\"static/chunks/node_modules_react-particles_esm_index_js.js\"]},\"_app.tsx -> @/components/particle\":{\"id\":\"_app.tsx -> @/components/particle\",\"files\":[\"static/chunks/src_components_particle_tsx.js\"]}}"

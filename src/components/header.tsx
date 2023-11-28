@@ -6,14 +6,16 @@ export default function Header() {
   const router = useRouter();
 
   return (
-    <div className="bg-transparent flex justify-between items-center px-[70px] h-[100px]">
+    <div className="bg-transparent flex justify-between items-center px-[70px] h-[100px] relative z-1">
       <Image
         src="/Neo2/vector/default-monochrome.svg"
         alt="logo"
         width={250}
         height={180}
+        className="auto" // This pushes the image to the left
+
       />
-      <div className="text-[#fff] text-[25px]">
+      <div className="text-[#fff] text-[25px] ">
         <Button
           onClick={() => router.push("/")}
           sx={{

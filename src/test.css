@@ -1,0 +1,21 @@
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient-text {
+  background: linear-gradient(135deg, rgb(236, 230, 243), rgb(241, 91, 181), rgb(254, 228, 64), rgb(0, 187, 249), rgb(0, 245, 212)) 0% 0% / 400% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradientAnimation 8s infinite; /* Adjust the duration as needed */
+}
+
+

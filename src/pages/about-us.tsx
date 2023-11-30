@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function AboutUs() {
   return (
     <div className="">
-      <p className="text-[red]">About Us</p>
+      <p className="text-[red]">Signin</p>
     </div>
   );
 }

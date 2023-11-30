@@ -6,11 +6,11 @@ export default function Header() {
   const router = useRouter();
 
   return (
-    <div className="bg-transparent flex justify-between items-center px-[70px] h-[100px] relative z-1">
+    <div className="bg-transparent flex justify-between items-center px-[40px] h-[90px] relative z-1">
       <Image
         src="/Neo2/vector/default-monochrome.svg"
         alt="logo"
-        width={250}
+        width={220}
         height={180}
         className="auto" // This pushes the image to the left
 
@@ -24,12 +24,13 @@ export default function Header() {
             borderRadius: "10px",
             color: "#fff",
             textTransform: "capitalize",
+            fontWeight:'bold'
           }}
           variant="outlined"
         >
-          Home
+          Sign In
         </Button>
-        <Button
+        {/* <Button
           onClick={() => router.push("/about-us")}
           sx={{
             width: "110px",
@@ -40,7 +41,7 @@ export default function Header() {
           variant="outlined"
         >
           About Us
-        </Button>
+        </Button> */}
       </div>
     </div>
   );

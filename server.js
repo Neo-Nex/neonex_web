@@ -3,7 +3,7 @@ const { createServer } = require('http')
 const { parse } = require('url')
 const next = require('next')
 
- const fetch = require('node-fetch');
+const fetch = require('node-fetch'); 
 const { Headers } = fetch;
 
 const dev = process.env.NODE_ENV !== 'production'
@@ -13,7 +13,8 @@ const port = 3000
 // when using middleware `hostname` and `port` must be provided below
 const app = next({ dev, hostname, port })
 const handle = app.getRequestHandler()
- 
+let headers = new fetch.Headers();
+
 app.prepare().then(() => {
   createServer(async (req, res) => {
     try {

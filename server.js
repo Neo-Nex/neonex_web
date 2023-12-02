@@ -8,7 +8,8 @@ const port = process.env.PORT || 3000;
 // when using middleware `hostname` and `port` must be provided below
 const app = next({ dev, hostname, port })
 const handle = app.getRequestHandler()
- 
+const fetch = require('node-fetch'); const { Headers } = fetch;
+
 app.prepare().then(() => {
   createServer(async (req, res) => {
     try {

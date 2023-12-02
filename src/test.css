@@ -11,7 +11,7 @@
 }
 
 .animated-gradient-text {
-  background: linear-gradient(135deg, rgb(67, 107, 74),rgb(213, 243, 41), rgb(255, 0, 242)) 0% 0% / 400% 100%;
+  background: linear-gradient(135deg, #404040,#404040) 0% 0% / 400% 100%;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

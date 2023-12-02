@@ -24,25 +24,20 @@ export default function Home() {
     <>
       <div
         style={{ height: "calc(100vh - 90px)" }}
-        className="p-10 pl-[100px] relative w-full flex flex-col justify-between items-center"
+        className="sm:p-10 sm:pl-[100px] relative w-full flex flex-col justify-between items-center"
       >
-        <div className="">
-          <p className=" text-[60px] italic animate-pulse text-white">
+        <div className="mt-[2rem] sm:mt-0">
+          <p className=" text-[30px] text-center font-bold sm:font-normal sm:text-[40px] italic animate-pulse text-white">
             Building the future with Generative AI
           </p>
-          {/* <p className=" text-xl italic text-left text-white w-[700px] ">
-            NeoNex stands as a trailblazing force in healthcare, leveraging
-            Generative AI to empower professionals with seamless access to an
-            extensive knowledge base for swift and informed decision-making.
-          </p> */}
         </div>
-        <div className="mb-[2rem]">
-          <p className=" text-2xl italic text-justify text-white  w-[580px] ">
+        <div className="mb-[5rem] sm:mb-[2rem]">
+          <p className=" text-[18px] sm:text-2xl italic text-justify text-white px-2 sm:px-0 sm:w-[580px] ">
             NeoNex stands as a trailblazing force in healthcare, leveraging
             Generative AI to empower professionals with seamless access to an
             extensive knowledge base for swift and informed decision-making.
           </p>
-          <div className="text-center mt-[2rem]">
+          <div className="text-center mt-[2rem] px-2 sm:px-0 sm:block">
             <input
               autoCapitalize="off"
               autoComplete="off"
@@ -68,8 +63,8 @@ export default function Home() {
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
       >
-        <Card className="w-[450px] h-[150px] flex flex-col justify-center">
-          <p className="text-center italic animated-gradient-text text-[20px]">"We'll loop back to you in the time it takes for a computer to process a 
+        <Card className="sm:w-[450px] h-[150px] flex flex-col justify-center">
+          <p className="text-center italic animated-gradient-text text-[17px] px-2 sm:px-0 sm:text-[20px]">"We'll loop back to you in the time it takes for a computer to process a 
           gazillion calculations Hang in there, human! 🤖"</p>
           {/* <p className="text-center italic animate-bounce text-[20px]">Thanks for your response</p> */}
         </Card>
